@@ -21,6 +21,9 @@ public class IntegralCalculator {
             if(consumptionInfo.consumptionType.equals(Type.WEIXIN)){
                 integral = integral.add(new WeiXinType().calculateIntegral(consumptionInfo.consumptionAmount));
             }
+            if(consumptionInfo.consumptionType.equals(Type.CREDIT)){
+                integral = integral.add(new CreditType().calculateIntegral(consumptionInfo.consumptionAmount));
+            }
         }
         return integral;
     }

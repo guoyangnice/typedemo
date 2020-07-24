@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class POSTest {
+public class TypeTest {
     @Test
     public void should_return_integral_when_give_pos__amount_8(){
         List<ConsumptionInfo> consumptionInfos = new ArrayList<>();
@@ -53,5 +53,25 @@ public class POSTest {
         IntegralCalculator integralCalculator = new IntegralCalculator(consumptionInfos);
         BigDecimal totalIntegral = integralCalculator.getTotalIntegral();
         Assert.assertEquals(new BigDecimal(25),totalIntegral);
+    }
+
+    @Test
+    public void should_return_integral_when_give_amount_and_credit_2208(){
+        ConsumptionInfo consumptionInfo = new ConsumptionInfo("2020-07-01 12:20",Type.CREDIT,new BigDecimal(2208));
+        List<ConsumptionInfo> consumptionInfos = new ArrayList<>();
+        consumptionInfos.add(consumptionInfo);
+        IntegralCalculator integralCalculator = new IntegralCalculator(consumptionInfos);
+        BigDecimal totalIntegral = integralCalculator.getTotalIntegral();
+        Assert.assertEquals(new BigDecimal(320),totalIntegral);
+    }
+
+    @Test
+    public void should_return_integral_when_give_amount_and_credit_308(){
+        ConsumptionInfo consumptionInfo = new ConsumptionInfo("2020-07-01 12:20",Type.CREDIT,new BigDecimal(308));
+        List<ConsumptionInfo> consumptionInfos = new ArrayList<>();
+        consumptionInfos.add(consumptionInfo);
+        IntegralCalculator integralCalculator = new IntegralCalculator(consumptionInfos);
+        BigDecimal totalIntegral = integralCalculator.getTotalIntegral();
+        Assert.assertEquals(new BigDecimal(45),totalIntegral);
     }
 }
