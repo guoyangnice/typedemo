@@ -74,4 +74,14 @@ public class TypeTest {
         BigDecimal totalIntegral = integralCalculator.getTotalIntegral();
         Assert.assertEquals(new BigDecimal(45),totalIntegral);
     }
+
+    @Test
+    public void should_return_integral_when_give_amount_and_credit_installment_6400(){
+        ConsumptionInfo consumptionInfo = new ConsumptionInfo("2020-07-01 12:20",Type.CREDIT,new BigDecimal(6400));
+        List<ConsumptionInfo> consumptionInfos = new ArrayList<>();
+        consumptionInfos.add(consumptionInfo);
+        IntegralCalculator integralCalculator = new IntegralCalculator(consumptionInfos);
+        BigDecimal totalIntegral = integralCalculator.getTotalIntegral();
+        Assert.assertEquals(new BigDecimal(740),totalIntegral);
+    }
 }

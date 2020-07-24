@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-24T17:09:00" hostname="DESKTOP-1HSAKQ3" time="0.006">
+<testsuite name="TypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-24T17:16:36" hostname="DESKTOP-1HSAKQ3" time="0.007">
   <properties/>
-  <testcase name="should_return_integral_when_give_amount_and_credit_308" classname="TypeTest" time="0.006"/>
+  <testcase name="should_return_integral_when_give_amount_and_credit_installment_6400" classname="TypeTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
