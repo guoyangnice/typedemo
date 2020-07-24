@@ -8,7 +8,7 @@ import java.util.List;
 
 public class POSTest {
     @Test
-    public void should_return_integral_when_give_amount_8(){
+    public void should_return_integral_when_give_pos__amount_8(){
         List<ConsumptionInfo> consumptionInfos = new ArrayList<>();
         ConsumptionInfo consumptionInfo = new ConsumptionInfo("2020-07-01 12:20", Type.POS,new BigDecimal(8));
         consumptionInfos.add(consumptionInfo);
@@ -18,7 +18,7 @@ public class POSTest {
     }
 
     @Test
-    public void should_return_integral_when_give_amount_108(){
+    public void should_return_integral_when_give_pos_amount_108(){
         List<ConsumptionInfo> consumptionInfos = new ArrayList<>();
         ConsumptionInfo consumptionInfo = new ConsumptionInfo("2020-07-01 12:20", Type.POS,new BigDecimal(108));
         consumptionInfos.add(consumptionInfo);
@@ -28,7 +28,7 @@ public class POSTest {
     }
 
     @Test
-    public void should_return_integral_when_give_amount_108_208_8(){
+    public void should_return_integral_when_give_pos_amount_108_208_8(){
         ConsumptionInfo consumptionInfo1 = new ConsumptionInfo("2020-07-01 12:20",Type.POS,new BigDecimal(108));
         ConsumptionInfo consumptionInfo2 = new ConsumptionInfo("2020-07-01 12:20",Type.POS,new BigDecimal(208));
         ConsumptionInfo consumptionInfo3 = new ConsumptionInfo("2020-07-01 12:20",Type.POS,new BigDecimal(8));
@@ -42,7 +42,7 @@ public class POSTest {
     }
 
     @Test
-    public void should_return_integral_when_give_amount_and_credit_108_208_8(){
+    public void should_return_integral_when_give_amount_and_weixin_108_208_8(){
         ConsumptionInfo consumptionInfo1 = new ConsumptionInfo("2020-07-01 12:20",Type.WEIXIN,new BigDecimal(108));
         ConsumptionInfo consumptionInfo2 = new ConsumptionInfo("2020-07-01 12:20",Type.POS,new BigDecimal(208));
         ConsumptionInfo consumptionInfo3 = new ConsumptionInfo("2020-07-01 12:20",Type.WEIXIN,new BigDecimal(8));
