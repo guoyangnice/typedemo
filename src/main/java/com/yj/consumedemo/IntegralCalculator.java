@@ -25,7 +25,7 @@ public class IntegralCalculator {
                 integral = integral.add(new CreditType().calculateIntegral(consumptionInfo.consumptionAmount));
             }
             if(consumptionInfo.consumptionType.equals(Type.CREDITINSTALLMENTTYPE)){
-                integral = integral.add(new CreditType().calculateIntegral(consumptionInfo.consumptionAmount));
+                integral = integral.add(new CreditInstallmentType().calculateIntegral(consumptionInfo.consumptionAmount));
             }
         }
         return integral;
