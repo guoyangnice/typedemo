@@ -16,16 +16,16 @@ public class IntegralCalculator {
         BigDecimal integral = BigDecimal.ZERO;
         for(ConsumptionInfo consumptionInfo : consumptionInfos){
             if(consumptionInfo.consumptionType.equals(Type.POS)){
-                integral = integral.add(new POSType().calculateIntegral(consumptionInfo.consumptionAmount));
+                integral = integral.add(new POSType().calculateIntegral(consumptionInfo.consumptionAmount,consumptionInfo.cardType));
             }
             if(consumptionInfo.consumptionType.equals(Type.WEIXIN)){
-                integral = integral.add(new WeiXinType().calculateIntegral(consumptionInfo.consumptionAmount));
+                integral = integral.add(new WeiXinType().calculateIntegral(consumptionInfo.consumptionAmount,consumptionInfo.cardType));
             }
             if(consumptionInfo.consumptionType.equals(Type.CREDIT)){
-                integral = integral.add(new CreditType().calculateIntegral(consumptionInfo.consumptionAmount));
+                integral = integral.add(new CreditType().calculateIntegral(consumptionInfo.consumptionAmount,consumptionInfo.cardType));
             }
             if(consumptionInfo.consumptionType.equals(Type.CREDITINSTALLMENTTYPE)){
-                integral = integral.add(new CreditInstallmentType().calculateIntegral(consumptionInfo.consumptionAmount));
+                integral = integral.add(new CreditInstallmentType().calculateIntegral(consumptionInfo.consumptionAmount,consumptionInfo.cardType));
             }
         }
         return integral;

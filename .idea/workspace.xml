@@ -8,19 +8,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/ConsumptionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/ConsumptionInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/CreditInstallmentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/CreditInstallmentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/CreditType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/CreditType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/IntegralCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/IntegralCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/POSType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/POSType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/PayType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/PayType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/WeiXinType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yj/consumedemo/WeiXinType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TypeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TypeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TypeTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TypeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TypeTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/ConsumptionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/ConsumptionInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/CreditInstallmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/CreditInstallmentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/CreditType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/CreditType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/IntegralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/IntegralCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/POSType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/POSType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/PayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/PayType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/WeiXinType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yj/consumedemo/WeiXinType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TypeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +60,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -79,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TypeTest.should_return_integral_when_give_all_type">
+  <component name="RunManager" selected="Gradle.TypeTest.should_return_integral_when_give_all_type_card_gold">
     <configuration name="TypeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,12 +132,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TypeTest.should_return_integral_when_give_amount_and_Credit_308" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TypeTest.should_return_integral_when_give_all_type_card_gold" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TypeTest.should_return_integral_when_give_amount_and_Credit_308&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TypeTest.should_return_integral_when_give_all_type_card_gold&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TypeTest.should_return_integral_when_give_all_type_card_gold" />
+        <item itemvalue="Gradle.TypeTest" />
         <item itemvalue="Gradle.TypeTest.should_return_integral_when_give_all_type" />
         <item itemvalue="Gradle.TypeTest.should_return_integral_when_give_amount_and_credit_installment_6400" />
-        <item itemvalue="Gradle.TypeTest" />
         <item itemvalue="Gradle.TypeTest.should_return_integral_when_give_amount_and_credit_308" />
-        <item itemvalue="Gradle.TypeTest.should_return_integral_when_give_amount_and_Credit_308" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595555970176</updated>
-      <workItem from="1595555973748" duration="22106000" />
+      <workItem from="1595555973748" duration="24109000" />
     </task>
     <servers />
   </component>
@@ -222,9 +234,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TypeTest.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/yj/consumedemo/CreditInstallmentType.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
